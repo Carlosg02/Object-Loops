@@ -1,0 +1,15 @@
+.recipes {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.recipes > div {
+    margin: 2em;
+}
+
+.recipes > div > ul{
+    font-size: 18px;
+}
